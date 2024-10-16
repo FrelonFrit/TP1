@@ -1,3 +1,30 @@
 body{
-    background-image:linear-gradient(green, rgb(159, 87, 4));
+    background-image: linear-gradient(rgb(207, 175, 99), rgb(159, 87, 4));
+    min-height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    background-color: aliceblue;
+}
+table, th, td{     
+    border: 5px solid black;
+}
+.afficheFilm{
+    scale: 50%;
+    text-align : right;
+}
+.titre{
+    height: 5%;
+    text-align: center;
+    font-size: 24px;
+}
+.synopsis{
+    height: 20%;
+}
+.film{
+    text-align: left;
+    
 }
