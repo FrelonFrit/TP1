@@ -56,31 +56,31 @@ table {
 /* Ids */
 
 #A1 {
-    background-image: url("/images/Alfred_Molina.png");
+    background-image: url("../images/Alfred_Molina.png");
 }
 
 #A2 {
-    background-image: url("/images/Denholm_Elliott.png");
+    background-image: url("../images/Denholm_Elliott.png");
 }
 
 #A3 {
-    background-image: url("/images/Harrison_Ford.png");
+    background-image: url("../images/Harrison_Ford.png");
 }
 
 #A4 {
-    background-image: url("/images/John_RhysDavies.png");
+    background-image: url("../images/John_RhysDavies.png");
 }
 
 #A5 {
-    background-image: url("/images/Karen_Allen.png");
+    background-image: url("../images/Karen_Allen.png");
 }
 
 #A6 {
-    background-image: url("/images/Paul_Freeman.png");
+    background-image: url("../images/Paul_Freeman.png");
 }
 
 #A7 {
-    background-image: url("/images/Ronald_Lacey.png");
+    background-image: url("../images/Ronald_Lacey.png");
 }
 
 #distribution {
