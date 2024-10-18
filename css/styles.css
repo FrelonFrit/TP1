@@ -1,30 +1,94 @@
-body{
+body {
     background-image: linear-gradient(rgb(207, 175, 99), rgb(159, 87, 4));
     min-height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
 }
-table{
-    width: 800px;
-    height: 900px;
+
+table {
+    max-width: 1000px;
+    max-height: 900px;
     margin: auto;
     background-color: aliceblue;
 }
-table, th, td{     
-    border: 5px solid black;
+
+div {
+    width: 38.5%px;
 }
-.afficheFilm{
-    scale: 50%;
-    text-align : right;
+
+/* Classes */
+
+.afficheFilm {
+    max-width: 100%;
+    max-height: 100%;
 }
-.titre{
+
+.descripActeur {
+    color: blue;
+    font-style: italic;
+}
+
+.celluleDescirp {
+    width: 30%;
+}
+
+.enGras {
+    font-weight: bold;
+}
+
+.titre {
     height: 5%;
     text-align: center;
     font-size: 24px;
+    background-color: rgb(102, 54, 40);
+    color: aliceblue;
 }
-.synopsis{
+
+.synopsis {
     height: 20%;
 }
-.film{
-    text-align: left;
-    
+
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+/* Ids */
+
+#A1 {
+    background-image: url("/images/Alfred_Molina.png");
+}
+
+#A2 {
+    background-image: url("/images/Denholm_Elliott.png");
+}
+
+#A3 {
+    background-image: url("/images/Harrison_Ford.png");
+}
+
+#A4 {
+    background-image: url("/images/John_RhysDavies.png");
+}
+
+#A5 {
+    background-image: url("/images/Karen_Allen.png");
+}
+
+#A6 {
+    background-image: url("/images/Paul_Freeman.png");
+}
+
+#A7 {
+    background-image: url("/images/Ronald_Lacey.png");
+}
+
+#distribution {
+    background-color: rgb(159, 87, 4);
+    color: aliceblue;
+    font-size: 22px;
 }
